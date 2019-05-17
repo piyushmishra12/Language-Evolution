@@ -15,11 +15,11 @@ While writing their little paragraphs, I asked my friends to develop a story bas
 
 The corpus of the Modern American English by Brown University also follows the same pattern,
 <p align="center">
-  <img width="460" height="300" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/brown_corpus.jpg">
+  <img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/brown_corpus.jpg">
 </p>
 as does the text from Wikipedia,
 <p align="center">
-  <img width="460" height="300" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/wiki_corpus.jpg">
+  <img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/wiki_corpus.jpg">
 </p>
 
 In all these plots the frequency versus rank distribution is a rectangular hyperbola and the log of these functions is a straight line with negative slope.
@@ -30,6 +30,6 @@ The reasons as to why all languages show this property are still under research 
 Whatever be the reasoning, this law helps us in identifying the driving factors of language evolution. It becomes evident because of this law that the most common verbs in the English language are all irregular (be, have, do say, get, make, go, know, take, see, come, think) verbs. Instead of having only a few very commonly used irregular verbs and many more uncommon irregular verbs, almost all irregular verbs are quite commonly used. These verbs are an exception to the Zipf's law. This can be explained since irregular verbs are some of the oldest existing verbs.
 
 
-English comes from the Proto Indo-European language family which followed the "ablaut" sytem; switching the vowel to convey tense (e.g. dig and dug, or sing and sang). The Proto Germanic language rules brought in some new rules by adding certain letters at the end of the word to convey tenses (e.g. work and worked). Today the latter are known as regular but back then, these were the exceptions. So as new words were being added to the vocabulary, they started adhering to the new rules. At the same time, more infrequently used irregular verbs switched to regular verbs (like the traditional past tense of slay is slew but in social media slang it is slayed). Infrequently used irregular verbs are regularised to do away with memorising the exceptions. That is the reason why most of the irregular verbs today are the ones that are very commonly used. It is as logical as us forgetting things.
+English comes from the Proto Indo-European language family which followed the "ablaut" sytem; switching the vowel to convey tense (e.g. dig and dug, or sing and sang). The Proto Germanic language rules brought in some new rules by adding certain letters at the end of the word to convey tenses (e.g. work and worked). Today the latter are known as regular but back then, these were the exceptions. So as new words were being added to the vocabulary, they started adhering to the new rules. At the same time, more infrequently used irregular verbs switched to regular verbs (like the traditional past tense of slay is slew but in social media slang it is slayed). Infrequently used irregular verbs are regularised to do away with memorising the exceptions. That is the reason why most of the irregular verbs today are the ones that are very commonly used. It is as logical as us forgetting rules if we don't keep in touch with them as often.
 
 Combining the two properties, the Zipf's law and verb regularisation, one can predict how fast a word will be regularised in a language, i.e. how much time it will take for the word "dug" to become "digged". Researchers suggest that the word "newlywed" will be regularised to "newlywedded" in a very near future. Notice how the conversation here is not about if, or why language will evolve. This goes to say that language evolution is an inevitable process and it does have a very systematic and mathematical aspect to it.
