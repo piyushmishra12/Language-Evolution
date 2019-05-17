@@ -14,10 +14,15 @@ Not only that, the individual paragraphs also show similar patterns, albeit the 
 While writing their little paragraphs, I asked my friends to develop a story based on 6 characters. To remove any kind of bias, the character names were to be complete gibberish. Again, the most frequent character appeared twice as many times as the second most frequent character, thrice as many times as the third most frequent character, and 6 times as many times as the most infrequent character. So the character names seemed to follow the same pattern.
 
 The corpus of the Modern American English by Brown University also follows the same pattern,
-
+<p align="center">
+  <img width="460" height="300" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/brown_corpus.jpg">
+</p>
 as does the text from Wikipedia,
+<p align="center">
+  <img width="460" height="300" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/wiki_corpus.jpg">
+</p>
 
-In all these plots the frequency versus rank distriution is a rectangular hyperbola and the log of these functions is a straight line with negative slope.
+In all these plots the frequency versus rank distribution is a rectangular hyperbola and the log of these functions is a straight line with negative slope.
 This is an empirical law widely known as the Zipf's law. It says that common words are very common, and uncommon words are very uncommon. Every language that has ever existed shows this property; even the ancient ones we haven't been able to decode.
 
 The reasons as to why all languages show this property are still under research but there are some theories. Zipf's law becomes very apparent when there are many unoserved, underlying variables. There are many natural as well as artificial systems that show a varying degree, and often, a surprising amount of statistical regularity. Zipf's law happens to be one of those regularities. One explanation is that it seeks to impose a balance between the listener and the speaker. Another argument could be that it is to minimise the number of phonemes to carry out communication. All these explanations are quite domain specific and don't necessarily prove anything really. So Zipf's law remains a mystery for the linguistic world.
