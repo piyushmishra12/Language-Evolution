@@ -1,1 +1,17 @@
-# Zipf-Law
+# Why Languages Evolve, Mathematically
+
+It isn't uncommon to hear some elders bemoan the younger generations about the language that the latter use, glorifying the language of the past. However, they don’t speak the same language Shakespeare used to speak. An evolution in language is inevitable and there are many theories about it. But can we explain this phenomenon mathematically?
+#### "The knights still slay as they slew; then do we play as we plew?"
+Structurally, the cause of changing language can be attributed to the irregular verbs. All the confusion regarding tenses and grammar arise due to these. In case of regular verbs, we can easily decipher different forms of the verb by adding a some letters at the end (work, works, worked, working etc). This isn’t the case with regular verbs (be, is, was, being etc). Why do we adhere to these norms of irregular verbs? From a pedagogical standpoint one would argue that it is because of some already estalished grammar rules, but from a mathematical standpoint, one can counter as to why these rules were formulated in the first place. We can answer these questions if we look at the origins of the English language.
+Earlier linguists used to write books called concordances, which essentially contained the number of times a word appeared in a particular book. This involved a careful counting of each and every word and indexing it. These days, thanks to advanced language processing techniques, we can do that in seconds. Once we have these concordances, we can further study the language behaviour. I wanted to do that too. So I asked a bunch of my friends to write short paragraphs and send them to me and I made little concordances out of those. Here's the interesting part: the most frequently used word was "the", followed by "of", followed by "and" etc.
+Of course, in order not to cause them any inconvenience, I asked my friends to only send me paragraphs of around 100 words. These weren't big enough to find any definite conclusions. So I combined all the paragraphs into one single corpus and made another concordance out of it. This time, as expected, again, "the" was the most commonly used word, followed by "of", followed by "and" and so on. However, another interesting observation; "the" appeared almost twice as often as "of", and almost thrice as often as "and" etc. It seemed as if the most frequent word appeared n times as often as the nth frequent word.
+So, if words are ranked according to their frequency (i.e. the most frequent word has the rank 1) then we can say, for our corpus, that frequency of a word is equivalent to the reciprocal of the rank of the word. Hence, we can also derive that if we take the logarithm of both the frequency and the rank, then the relation should be linear with a negative slope. My corpus seems to adhere to this rule.
+
+Not only that, the individual stories also show similar patterns.
+
+While writing their little paragraphs, I asked my friends to develop a story based on 6 characters. To remove any kind of bias, the character names were to be complete gibberish. Again, the most frequent character appeared twice as many times as the second most frequent character, thrice as many times as the third most frequent character, and 6 times as many times as the most infrequent character.
+
+The corpus of the Modern American English by Brown University also follows the same pattern,
+
+as does the text from Wikipeadia,
+
