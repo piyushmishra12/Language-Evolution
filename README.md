@@ -14,13 +14,17 @@ Not only that, the individual paragraphs also show similar patterns, albeit the 
 While writing their little paragraphs, I asked my friends to develop a story based on 6 characters. In order to remove any kind of bias, the character names were to be complete gibberish. Again, the most frequent character appeared almost twice as many times as the second most frequent character, thrice as many times as the third most frequent character, and 6 times as many times as the most infrequent character. So the character names seemed to follow the same pattern.
 
 The corpus of the Modern American English by Brown University also follows the same pattern,
-<p align="center">
-  <img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/brown_corpus.jpg">
-</p>
+
+<img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/brown_corpus.jpg">
+
 as does the text from Wikipedia,
-<p align="center">
-  <img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/wiki_corpus.jpg">
-</p>
+
+<img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/wiki_corpus.jpg">
+
+and so does random gibberish text
+
+<img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/random_text.png">
+
 
 In all these plots the frequency versus rank distribution is a rectangular hyperbola and the log of these functions is a straight line with negative slope.
 This is an empirical law widely known as the Zipf's law. It says that common words are very common, and uncommon words are very uncommon. Every language that has ever existed shows this property; even the ancient ones we haven't been able to decode.
