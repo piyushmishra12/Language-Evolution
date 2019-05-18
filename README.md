@@ -1,6 +1,6 @@
 # Why Languages Evolve, Mathematically
 
-It isn't uncommon to hear some elders bemoan the younger generations about the language that the latter use, glorifying the language of the past. However, they don’t speak the same language Shakespeare used to speak. An evolution in language is inevitable and there are many theories about it. But can we explain this phenomenon mathematically?
+It isn't uncommon to hear some elders bemoan the younger generations about the language that the latter use, glorifying the language of the past. However, they don’t speak Shakespearean language either. An evolution in language is inevitable and there are many theories about it. But can we explain this phenomenon mathematically?
 #### "The knights still slay as they slew; then do we play as we plew?"
 Structurally, the cause of changing language can be attributed to the irregular verbs. All the confusion regarding tenses and grammar arise due to these. In case of regular verbs, we can easily decipher different forms of the verb by adding some letters at the end (work, works, worked, working etc). This isn’t the case with irregular verbs (be, is, was, being etc). Why do we adhere to these norms of irregular verbs? From a pedagogical standpoint one would argue that it is because of some already estalished grammar rules, but from a mathematical standpoint, one can counter as to why these rules were formulated in the first place. We can answer these questions if we look at the origins of the English language.
 
