@@ -23,7 +23,7 @@ as does the text from Wikipedia,
 
 
 From all these plots, it is clear that the frequency of a word is inversely proportional to the rank of the word and on plotting the log-log graph, we get almost a straight line with a negative slope.
-This is an empirical law widely known as the Zipf's law. It explains why common words are very common, and uncommon words are very uncommon. Every language that has ever existed shows this property; even the ones we haven't been able to decode.
+This is an empirical law widely known as the Zipf's law. It explains why common words are very common, and uncommon words are very uncommon. Every language that has ever existed shows this property; even the ones we haven't been able to decode yet.
 
 The reasons as to why all languages show this property are still under research but there are some theories. Zipf's law becomes very apparent when there are many unobserved, underlying variables. There are many natural as well as artificial systems that show a varying degree, and often, a surprising amount of statistical regularity. Zipf's law happens to be one of those regularities. One explanation is that it seeks to impose a balance between the listener and the speaker. Another argument could be that it is to minimise the number of phonemes to carry out communication. All these explanations are quite domain specific and don't necessarily prove anything really. So Zipf's law remains a mystery for the linguistic world.
 
