@@ -27,7 +27,7 @@ This is an empirical law widely known as the Zipf's law. It explains why common 
 
 The reasons as to why all languages show this property are still under research but there are some theories. Zipf's law becomes very apparent when there are many unobserved, underlying variables. There are many natural as well as artificial systems that show a varying degree, and often, a surprising amount of statistical regularity. Zipf's law happens to be one of those regularities. One explanation is that it seeks to impose a balance between the listener and the speaker. Another argument could be that it is to minimise the number of phonemes to carry out communication. All these explanations are quite domain specific and don't necessarily prove anything really. So Zipf's law remains a mystery in the field of computational linguistics.
 
-The fascinating truth is that the distribution of frequencies in randomly generated text also abides by the Zipf's law.
+The fascinating truth is that the distribution of frequencies in randomly generated text also abides by the Zipf's law. I generated random gibberish using an online gibberish generator and plotted it's distribution and log-log plots as shown below.
 
 <img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/random_text.png">
 
