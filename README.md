@@ -1,6 +1,6 @@
 # Why Languages Evolve, Mathematically
 
-It isn't uncommon to hear some elders bemoan the younger generations about the language that the latter use,while glorifying the language of the past. However, they don’t speak the Shakespearean language either. An evolution in language is inevitable and there are many theories about it. But can we explain this phenomenon mathematically?
+It isn't uncommon to hear elders bemoan the younger generations about the language that the latter use, while glorifying the language of the past. However, they don’t speak the Shakespearean language either. An evolution in language is inevitable and there are many theories about it. But can we explain this phenomenon mathematically?
 #### "The knights still slay as they slew; then do we play as we plew?"
 Structurally, the cause of changing language can be attributed to the irregular verbs. All the confusion regarding tenses and grammar arise due to these. In case of regular verbs, we can easily decipher different forms of the verb by adding some letters at the end (work, works, worked, working etc). This isn’t the case with irregular verbs (be, is, was, being etc). Why do we adhere to these norms of irregular verbs? From a pedagogical standpoint one would argue that it is because of some already estalished grammar rules, but from a mathematical standpoint, one can counter as to why these rules were formulated in the first place. We can answer these questions if we look at the origins of the English language.
 
@@ -21,15 +21,17 @@ as does the text from Wikipedia,
 
 <img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/wiki_corpus.jpg">
 
-and so does random gibberish text
+
+From all these plots, it is clear that the frequency of a word is inversely proportional to the rank of the word and on plotting the log-log graph, we get almost a straight line with a negative slope.
+This is an empirical law widely known as the Zipf's law. It explains why common words are very common, and uncommon words are very uncommon. Every language that has ever existed shows this property; even the ones we haven't been able to decode.
+
+The reasons as to why all languages show this property are still under research but there are some theories. Zipf's law becomes very apparent when there are many unobserved, underlying variables. There are many natural as well as artificial systems that show a varying degree, and often, a surprising amount of statistical regularity. Zipf's law happens to be one of those regularities. One explanation is that it seeks to impose a balance between the listener and the speaker. Another argument could be that it is to minimise the number of phonemes to carry out communication. All these explanations are quite domain specific and don't necessarily prove anything really. So Zipf's law remains a mystery for the linguistic world.
+
+The fascinating truth is that the distribution of frequencies in randomly generated text also abides by the Zipf's law.
 
 <img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/random_text.png">
 
-
-In all these plots the frequency versus rank distribution is a rectangular hyperbola and the log of these functions is a straight line with negative slope.
-This is an empirical law widely known as the Zipf's law. It says that common words are very common, and uncommon words are very uncommon. Every language that has ever existed shows this property; even the ancient ones we haven't been able to decode.
-
-The reasons as to why all languages show this property are still under research but there are some theories. Zipf's law becomes very apparent when there are many unobserved, underlying variables. There are many natural as well as artificial systems that show a varying degree, and often, a surprising amount of statistical regularity. Zipf's law happens to be one of those regularities. One explanation is that it seeks to impose a balance between the listener and the speaker. Another argument could be that it is to minimise the number of phonemes to carry out communication. All these explanations are quite domain specific and don't necessarily prove anything really. So Zipf's law remains a mystery for the linguistic world.
+The explanation for the distribution of random words is much easier. Consider a monkey intelligent enough to be able to press the alphaets on a keyboard. Each alphabet cluster (not separated by a space) is considered to be a word. To press a key each time, the monkey has 27 chances: all the 26 letters and the spacebar. So the probability to generate a single letter word is 1/27 since after a letter has been pressed, there is only one out of 27 ways to press the spacebar. Similarly the probability of getting a two letter word is 26/27 x 1/27 since after a letter is pressed there are 26 ways to not press the spacebar and then only one way to do so after the second letter. So as a word becomes longer (the spacebar is not pressed), its probability to exist decreases. This leads to a power law that is similar to Zipf's. However, this still does not explain why natural language behaves similarly. That's because, unlike random sequencing, where a word can be followed by any other word, in natural language, the probability of a word occurance largely depends on the previous word, or a sequence of previous words.
 
 Whatever be the reasoning, this law helps us in identifying the driving factors of language evolution. It becomes evident because of this law that the most common verbs in the English language are all irregular (be, have, do, say, get, make, go, know, take, see, come, think) verbs. Instead of having only a few very commonly used irregular verbs and many more uncommon irregular verbs, almost all irregular verbs are quite commonly used. These verbs are an exception to the Zipf's law. This can be explained since irregular verbs are some of the oldest existing verbs.
 
