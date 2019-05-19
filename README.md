@@ -15,11 +15,11 @@ While writing their little paragraphs, I asked my friends to develop a story bas
 
 The corpus of the Modern American English by Brown University also follows the same pattern,
 
-<img src="results/brown_corpus.jpg" class="img-responsive">
+<img width="600" height="400" src="results/brown_corpus.png" class="img-responsive" alt="">
 
 as does the text from Wikipedia,
 
-<img width="600" height="400" src="results/wiki_corpus.jpg" class="img-responsive">
+<img width="600" height="400" src="results/wiki_corpus.png" class="img-responsive" alt="">
 
 
 From all these plots, it is clear that the frequency of a word is inversely proportional to the rank of the word and on plotting the log-log graph, we get almost a straight line with a negative slope.
