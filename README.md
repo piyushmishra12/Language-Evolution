@@ -15,11 +15,11 @@ While writing their little paragraphs, I asked my friends to develop a story bas
 
 The corpus of the Modern American English by Brown University also follows the same pattern,
 
-<img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/brown_corpus.jpg">
+<img src="results/brown_corpus.jpg" class="img-responsive">
 
 as does the text from Wikipedia,
 
-<img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/wiki_corpus.jpg">
+<img width="600" height="400" src="results/wiki_corpus.jpg" class="img-responsive">
 
 
 From all these plots, it is clear that the frequency of a word is inversely proportional to the rank of the word and on plotting the log-log graph, we get almost a straight line with a negative slope.
@@ -29,7 +29,7 @@ The reasons as to why all languages show this property are still under research 
 
 The fascinating truth is that the distribution of frequencies in randomly generated text also abides by the Zipf's law. I generated random gibberish using an online gibberish generator and plotted it's distribution and log-log plots as shown below.
 
-<img width="600" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/random_text.png">
+<img width="600" height="400" src="results/random_text.png" class="img-responsive">
 
 The explanation for the distribution of random words is much easier. Consider a monkey intelligent enough to be able to press the alphabets on a keyboard. Each alphabet cluster (not separated by a space) is considered to be a word. To press a key each time, the monkey has 27 choices: all the 26 letters and the spacebar. So the probability to generate a single letter word is 1/27, since after a letter has been pressed, there is only one out of 27 ways to press the spacebar. Similarly, the probability of getting a two letter word is 26/27 x 1/27, since after a letter is pressed there are 26 ways to not press the spacebar and then only one way to do so after the second letter. Similarly, the probability of getting a three letter word is 26/27 x 26/27 x 1/27. So, as a word becomes longer (the spacebar is not pressed), its probability to exist decreases. This leads to a power law that is similar to Zipf's. However, this still does not explain why natural language behaves similarly. That's because, unlike random sequencing, where a word can be followed by any other word, in natural language, the probability of a word occurence largely depends on the previous word, or a sequence of previous words.
 
@@ -38,7 +38,7 @@ Whatever be the reasoning, this law helps us in identifying the driving factors 
 
 English comes from the Proto Indo-European language family which followed the "ablaut" sytem; switching the vowel to convey tense (e.g. dig and dug, or sing and sang). The Proto Germanic language family, which descended from the Proto Indo-European family brought in some new rules by adding certain letters at the end of the word to convey tenses (e.g. work and worked). Today these "newer" additions are known as the regular rules but back then, these were the exceptions because there were so few of them. So as new words were being added to the vocabulary, they started adhering to the new rules, thereby increasing the proportion of the new words which followed the new rules. At the same time, more infrequently used irregular verbs switched to regular verbs (like the traditional past tense of "slay" is "slew" but in social media slang it is "slayed"). Infrequently used irregular verbs are regularised to do away with memorising the exceptions. That is the reason why most of the irregular verbs today are the ones that are very commonly used. It is as logical as us forgetting rules if we don't keep in touch with them as often. This is perhaps why the word "smelt" which has enjoyed its popularity for a long time has been overthrown by its regularised counterpart "smelled" since the 1900s.
 
-<img width="900" height="400" src="https://github.com/itsmepiyush2/Zipf-Law/blob/master/results/ngram_viewer.png">
+<img width="900" height="400" src="results/ngram_viewer.png" class="img-responsive">
 
 Some researchers argue that language evolution has an analogy with principles of evolutionary biology. Languages transform as they are passed down from one generation to another or from one geographical location to another. This is termed as linguistic drift. Inclusion of the word "do" as an auxiliary verb ("you know not" to "you do not know") and other such changes were the result of random mutations in the language as usage evolved.
 
