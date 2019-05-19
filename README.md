@@ -9,7 +9,7 @@ Since the paragraphs were only about 100 words worth of text, they weren't big e
 
 So, if words are ranked according to their frequency (i.e. the most frequent word has the rank 1) then it is safe to say that, for the combined corpus, frequency of a word is proportional to the reciprocal of the rank of the word. Hence, we can also derive a logarithmic relationship between the two. If we take the logarithm of both word frequency and word rank, then the relation should be linear with a negative slope. My corpus seems to adhere to this rule.
 
-Not only that, the individual paragraphs also show similar patterns, albeit the short length of the text prevents the results from being quite conclusive.
+That is astounding. Even more astounding is the fact that the individual paragraphs also show similar patterns, albeit the short length of the text prevents the results from being quite conclusive.
 
 While writing their little paragraphs, I asked my friends to develop a story based on 6 characters. In order to remove any kind of bias, the character names were to be complete gibberish. Again, in an average story, the most frequent character appeared almost twice as many times as the second most frequent character, almost thrice as many times as the third most frequent character, and so on. So the occurence of character names seemed to follow the same pattern.
 
