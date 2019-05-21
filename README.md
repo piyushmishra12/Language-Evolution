@@ -11,7 +11,7 @@ So, if words are ranked according to their frequency (i.e. the most frequent wor
 
 That is astounding. Even more astounding is the fact that the individual paragraphs also show similar patterns, albeit the short length of the text prevents the results from being quite conclusive.
 
-While writing their little paragraphs, I asked my friends to develop a story based on 6 characters. In order to remove any kind of bias, the character names were to be complete gibberish. Again, in a mean story, one character was always the most preferred, followed by the second most preferred character, followed by the third most preferred character, and so on. So, character names also followed the same pattern.
+While writing their little paragraphs, I asked my friends to develop a story based on 6 characters. In order to remove any kind of bias, the character names were to be complete gibberish. Again, in a mean story, one character was always the most preferred, followed by the second most preferred character, followed by the third most preferred character, and so on. Moreover, the number of times a character occured in a story also followed a similar pattern.
 
 The corpus of the Modern American English by Brown University also follows the same pattern,
 
