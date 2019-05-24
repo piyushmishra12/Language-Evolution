@@ -9,9 +9,14 @@ Since the paragraphs were only about 100 words worth of text, they weren't big e
 
 So, if words are ranked according to their frequency (i.e. the most frequent word has the rank 1) then it is safe to say that, for the combined corpus, frequency of a word is proportional to the reciprocal of the rank of the word. Hence, we can also derive a logarithmic relationship between the two. If we take the logarithm of both word frequency and word rank, then the relation should be linear with a negative slope. My corpus seems to adhere to this rule.
 
+<img width="600" height="400" src="results/combined_corpus.png" class="img-responsive" alt="">
+
 That is astounding. Even more astounding is the fact that the individual paragraphs also show similar patterns, albeit the short length of the text prevents the results from being quite conclusive.
 
-While writing their little paragraphs, I asked my friends to develop a story based on 6 characters. In order to remove any kind of bias, the character names were to be complete gibberish. Again, in a mean story, one character was always the most preferred, followed by the second most preferred character, followed by the third most preferred character, and so on. Moreover, the number of times a character occured in a story also followed a similar pattern.
+<img width="600" height="800" src="results/individual.png" class="img-responsive" alt="">
+
+While writing their little paragraphs, I asked my friends to develop a story based on 6 characters. In order to remove any kind of bias, the character names were to be complete gibberish. Again, in a mean story, one character was always the most preferred, followed by the second most preferred character, followed by the third most preferred character, and so on. Moreover, the number of times a character occured in a story also followed a similar pattern. The pattern is not quite pronounced because there are only six characters as opposed to millions of words in the vocabulary. However, despite the small number of characters, the text shows this behaviour pretty well.
+<img width="600" height="400" src="results/char.png" class="img-responsive" alt="">
 
 The corpus of the Modern American English by Brown University also follows the same pattern,
 
