@@ -16,6 +16,7 @@ That is astounding. Even more astounding is the fact that the individual paragra
 <img width="600" height="800" src="results/individual.png" class="img-responsive" alt="">
 
 While writing their little paragraphs, I asked my friends to develop a story based on 6 characters. In order to remove any kind of bias, the character names were to be complete gibberish. Again, in a mean story, one character was always the most preferred, followed by the second most preferred character, followed by the third most preferred character, and so on. Moreover, the number of times a character occured in a story also followed a similar pattern. The pattern is not quite pronounced because there are only six characters as opposed to millions of words in the vocabulary. However, despite the small number of characters, the text shows this behaviour pretty well.
+
 <img width="600" height="400" src="results/char.png" class="img-responsive" alt="">
 
 The corpus of the Modern American English by Brown University also follows the same pattern,
